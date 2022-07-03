@@ -1,0 +1,175 @@
+/*This line is to make sure all div box size same despite padding*/
+* {
+  box-sizing: border-box;
+}
+
+/*remove underline in all hyperlink*/
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000707;
+}
+
+body {
+  color: #40514e;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+
+/*Button codes for contact me using css3buttongenerator.com*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/*Button:hover codes for contact me using css3buttongenerator.com*/
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  /*remove cloud from flow and position accordingly*/
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 50px auto 0;
+  padding-top: 1rem;
+}
+
+.contact-msg {
+  margin: auto auto 2rem auto;
+  width: 50%;
+}
+
+.credit {
+  color: #0e7477;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  color: #108f94;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 1em;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.265rem;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 1.5em auto;
+}
+
+hr {
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top: 1em dotted #bef7eb;
+  margin: 3rem auto;
+  width: 10%;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+
+.lastline {
+  color: black;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding-top: 1em;
+}
+
+.middle-container {
+  padding-top: 100px;
+}
+
+/*setting standard line height for paragraph*/
+p {
+  line-height: 2.4;
+}
+
+/*underline "pro" in programmer*/
+.pro {
+  text-decoration: underline;
+}
+
+.skill-pic1 {
+  float: left;
+  margin-right: 30px;
+  padding: 30px 0;
+  width: 25%;
+}
+
+.skill-pic2 {
+  float: right;
+  margin-left: 30px;
+  padding: 30px 0;
+  width: 25%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  /*originally left*/
+  text-align: justify;
+}
+
+/*This is used to clear float when image size bigger than parent's container*/
+.skill-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  /*padding move all content of top container down*/
+  padding-top: 100px;
+  position: relative;
+}
